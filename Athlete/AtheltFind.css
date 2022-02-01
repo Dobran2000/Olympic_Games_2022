@@ -1,0 +1,54 @@
+﻿body {
+    height: 50%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Photos/Carpati.jpg');
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+
+
+.input {
+    padding: 10px;
+    width: 500px;
+    height: 30px;
+    background: none;
+    border: 4px solid #ffd52d;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: #ffd52d;
+    outline: none;
+    transition: .5s;
+    position: center;
+    left: 10px;
+}
+
+.submit-btn {
+    padding: 10px;
+    width: 50px;
+    height: 30px;
+    width: 30%;
+    padding: 10px;
+    cursor: pointer;
+    display: flow-root;
+    margin: 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+}
+
+.GridPosition {
+    left: 100px;
+    top: 100px;
+    height: 100px;
+    width: 100px;
+    background-color:lightyellow;
+    border-block-color:rebeccapurple;
+}
